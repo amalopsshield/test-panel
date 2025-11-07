@@ -1,3 +1,4 @@
-o 1;<?php
+<?php
 echo "test";
+
 ?>
