@@ -1,0 +1,4 @@
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/site2/public_html/test-panel/
+    - /bin/rsync -av --delete . $DEPLOYPATH
