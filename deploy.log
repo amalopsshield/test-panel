@@ -52,3 +52,30 @@ npm verb code -2
 
 npm ERR! A complete log of this run can be found in:
 npm ERR!     /root/.npm/_logs/2025-11-10T08_09_20_103Z-debug-0.log
+[DEPLOY] Started at Mon Nov 10 02:01:27 PM IST 2025
+[DEPLOY] Running pre-deploy tasks...
+Installing dependencies...
+npm verb cli /usr/bin/node /usr/bin/npm
+npm info using npm@9.2.0
+npm info using node@v18.19.1
+npm verb title npm install
+npm verb argv "install" "--loglevel" "verbose"
+npm verb logfile logs-max:10 dir:/root/.npm/_logs/2025-11-10T08_31_28_001Z-
+npm verb logfile /root/.npm/_logs/2025-11-10T08_31_28_001Z-debug-0.log
+npm verb stack Error: ENOENT: no such file or directory, open '/home/site1/test1/package.json'
+npm verb cwd /home/site1/test1
+npm verb Linux 6.8.0-51-generic
+npm verb node v18.19.1
+npm verb npm  v9.2.0
+npm ERR! code ENOENT
+npm ERR! syscall open
+npm ERR! path /home/site1/test1/package.json
+npm ERR! errno -2
+npm ERR! enoent ENOENT: no such file or directory, open '/home/site1/test1/package.json'
+npm ERR! enoent This is related to npm not being able to find a file.
+npm ERR! enoent 
+npm verb exit -2
+npm verb code -2
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /root/.npm/_logs/2025-11-10T08_31_28_001Z-debug-0.log
