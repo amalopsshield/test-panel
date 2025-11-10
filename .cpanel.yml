@@ -1,4 +1,0 @@
-deployment:
-  tasks:
-    - export DEPLOYPATH=/home/democpguard/public_html/test1/
-    - /bin/rsync -av --exclude '.git' --exclude '.cpanel.yml' ./ $DEPLOYPATH
